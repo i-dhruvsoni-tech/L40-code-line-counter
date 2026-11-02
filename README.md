@@ -31,8 +31,24 @@ cd ~/Desktop/"Linux Dhruv"
 ./main.sh --backup
 ./main.sh --cron
 
-## Project Guide
+Crontab task
+Every Friday at 6 PM, write the project stats report with date stamp:
+0 18 * * 5 /bin/bash "/home/dhruvsoni/Desktop/Linux Dhruv/main.sh" --cron >> "/home/dhruvsoni/Desktop/Linux Dhruv/logs/cron.log" 2>&1
+
+Commands used
+find, wc, sort, grep -rn, du, tar, awk, sed
+
+What I learned
+Writing modular Bash scripts using functions, loops, and case statements.
+
+Filtering file streams and analyzing text using Unix utilities (awk, sed, grep, sort, uniq).
+
+Setting up scheduled user jobs using crontab and redirecting logs.
+
+Managing archives and backups using tar -czf.
+
+Project Guide
 This project was completed under the guidance of
-**Dr. Anjum Y. Mansuri**, Assistant Professor, Computer Applications,
+Dr. Anjum Y. Mansuri, Assistant Professor, Computer Applications,
 LJ Institute of Computer Applications, LJ University, Ahmedabad.
-GitHub: [@anjum-mansuri](https://github.com/anjum-mansuri)
+GitHub: @anjum-mansuri
