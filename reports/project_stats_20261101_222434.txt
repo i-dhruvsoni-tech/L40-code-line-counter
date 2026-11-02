@@ -1,0 +1,26 @@
+==================================================
+         PROJECT CODE ANALYSIS REPORT             
+Generated on : 2026-11-01 22:24:34
+Target Folder: data/project
+==================================================
+
+1. OVERALL METRICS:
+   - Total Files        : 16
+   - Total Lines of Code: 63
+   - Total Disk Usage   : 68K
+   - Pending Tasks      : 17
+
+2. FILE BREAKDOWN BY EXTENSION:
+   .c        : 5 file(s)
+   .js       : 5 file(s)
+   .py       : 1 file(s)
+   .sh       : 5 file(s)
+
+3. TOP 5 LARGEST FILES (BY LINES):
+   8        lines -> data/project/app.py
+   4        lines -> data/project/util_5.js
+   4        lines -> data/project/util_4.js
+   4        lines -> data/project/util_3.js
+   4        lines -> data/project/util_2.js
+
+==================================================
